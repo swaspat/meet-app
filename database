@@ -1,0 +1,33 @@
+Users:
+
+Store user profiles including username, email, password (hashed), profile picture, location, interests, preferences, etc.
+Each user should have a unique identifier.
+
+Activities:
+
+Store details about different activities that users can join (e.g., soccer, movie, concert, restaurant, etc.).
+Information could include activity name, description, date/time, location, maximum number of participants, creator ID (reference to the user who created the activity), etc.
+
+Participation:
+
+Track which users are participating in which activities.
+Each record should contain a reference to the user ID and the activity ID they are participating in.
+
+Messages:
+
+Store messages exchanged between users.
+Fields may include sender ID, receiver ID, message content, timestamp, etc.
+
+Reviews:
+
+Allow users to leave reviews and ratings for each other after participating in an activity together.
+Fields may include reviewer ID, reviewee ID, rating, review content, timestamp, etc.
+
+Locations:
+
+Store information about different locations where activities can take place (e.g., stadiums, theaters, restaurants, etc.).
+Information could include location name, address, coordinates (latitude and longitude), type of venue, etc.
+
+Interests:
+
+Store predefined interests that users can select from when creating their profiles or searching for activities.
